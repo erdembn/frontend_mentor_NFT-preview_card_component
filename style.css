@@ -189,6 +189,7 @@ hr {
 
 
 
+
 @media screen and (min-width: 450px) {
 
     .card {
@@ -199,5 +200,12 @@ hr {
         line-height: 1.5;
         margin-right: 8vh;
 
+    }
+
+    .card-content-top p,
+    .card-content-bottom-right p,
+    .card-content-bottom-right span,
+    .eth-price-container p {
+        font-size: 1.125rem;
     }
 }
